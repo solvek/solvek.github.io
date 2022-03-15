@@ -1,1 +1,0 @@
-import{d as e,b as n,o as s,e as a,t as r,f as c}from"./vendor.90acdd3d.js";import{b as o}from"./app.1c3cd1f1.js";const f=e({setup(p){const{t}=n();return(i,u)=>(s(),a("div",null,r(c(t)("not-found")),1))}});typeof o=="function"&&o(f);export{f as default};
