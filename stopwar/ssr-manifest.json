@@ -1,0 +1,222 @@
+{
+  "vite/modulepreload-polyfill": [],
+  "locales/de.yml": [],
+  "locales/en.yml": [],
+  "locales/es.yml": [],
+  "locales/fr.yml": [],
+  "locales/id.yml": [],
+  "locales/it.yml": [],
+  "locales/ja.yml": [],
+  "locales/ko.yml": [],
+  "locales/pl.yml": [],
+  "locales/pt-BR.yml": [],
+  "locales/ru.yml": [],
+  "locales/tr.yml": [],
+  "locales/vi.yml": [],
+  "locales/zh-CN.yml": [],
+  "src/modules/i18n.ts": [],
+  "src/modules/nprogress.ts": [],
+  "src/modules/pinia.ts": [],
+  "vite/preload-helper": [],
+  "src/modules/pwa.ts": [],
+  "src/ddos.ts": [],
+  "../../../../@vite-plugin-pages/route-block": [],
+  "src/pages/index.vue": [],
+  "../../../../@vite-plugin-pages/generated-pages": [],
+  "src/composables/dark.ts": [],
+  "src/components/Footer.vue": [],
+  "plugin-vue:export-helper": [],
+  "src/layouts/default.vue": [],
+  "../../../../@vite-plugin-vue-layouts/generated-layouts": [],
+  "src/App.vue": [],
+  "node_modules/@unocss/reset/tailwind.css": [],
+  "src/styles/main.css": [],
+  "../../../../__uno.css": [],
+  "src/main.ts": [],
+  "index.html": [],
+  "assets/app.1c3cd1f1.js-unocss-hash.css": [],
+  "node_modules/vue-i18n/node_modules/@intlify/shared/dist/shared.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/core-base/node_modules/@intlify/shared/dist/shared.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/message-resolver/dist/message-resolver.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/runtime/node_modules/@intlify/shared/dist/shared.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/runtime/dist/runtime.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/core-base/node_modules/@intlify/message-compiler/dist/message-compiler.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/devtools-if/dist/devtools-if.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/core-base/dist/core-base.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/env.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/const.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/time.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/api.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/app.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/component.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/context.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/util.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/api/index.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/plugin.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vue/devtools-api/lib/esm/index.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@intlify/vue-devtools/dist/vue-devtools.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/vue-i18n/dist/vue-i18n.runtime.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "\u0000commonjsHelpers.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "\u0000/home/solvek/Projects/StopWar/node_modules/nprogress/nprogress.js?commonjs-module": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/nprogress/nprogress.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/vue-demi/lib/index.mjs": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/pinia/dist/pinia.esm-browser.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vueuse/head/dist/index.mjs": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/vite-ssg/dist/chunks/state.mjs": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/vite-ssg/dist/index.mjs": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "\u0000/home/solvek/Projects/StopWar/node_modules/papaparse/papaparse.min.js?commonjs-module": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/papaparse/papaparse.min.js": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vueuse/core/node_modules/@vueuse/shared/index.mjs": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/@vueuse/core/index.mjs": [
+    "/assets/vendor.90acdd3d.js"
+  ],
+  "node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
+    "/assets/virtual_pwa-register.c5d6804f.js"
+  ],
+  "../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register.c5d6804f.js"
+  ],
+  "src/pages/README.md": [
+    "/assets/README.9b7bc07e.js",
+    "/assets/README.d220ca7c.css"
+  ],
+  "assets/README.9b7bc07e.js-unocss-hash.css": [
+    "/assets/README.9b7bc07e.js",
+    "/assets/README.d220ca7c.css"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_.44ab79ae.js",
+    "/assets/README.d220ca7c.css"
+  ],
+  "assets/_...all_.44ab79ae.js-unocss-hash.css": [
+    "/assets/_...all_.44ab79ae.js",
+    "/assets/README.d220ca7c.css"
+  ],
+  "src/pages/about.md": [
+    "/assets/about.0529aa9a.js",
+    "/assets/about.7d6f192c.css"
+  ],
+  "assets/about.0529aa9a.js-unocss-hash.css": [
+    "/assets/about.0529aa9a.js",
+    "/assets/about.7d6f192c.css"
+  ],
+  "src/stores/user.ts": [
+    "/assets/_name_.63384d79.js",
+    "/assets/_name_.f2afde49.css"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/assets/_name_.63384d79.js",
+    "/assets/_name_.f2afde49.css"
+  ],
+  "assets/_name_.63384d79.js-unocss-hash.css": [
+    "/assets/_name_.63384d79.js",
+    "/assets/_name_.f2afde49.css"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404.ac281c90.js",
+    "/assets/404.16bb6fe7.css"
+  ],
+  "assets/404.ac281c90.js-unocss-hash.css": [
+    "/assets/404.ac281c90.js",
+    "/assets/404.16bb6fe7.css"
+  ],
+  "src/layouts/home.vue": [
+    "/assets/home.63b20188.js",
+    "/assets/home.8a7318a9.css"
+  ],
+  "assets/home.63b20188.js-unocss-hash.css": [
+    "/assets/home.63b20188.js",
+    "/assets/home.8a7318a9.css"
+  ]
+}
