@@ -205,6 +205,7 @@
                 mode: 'no-cors'
             }).then((response) => {
                 clearTimeout(id);
+                console.log("Request res: "+response.ok);
                 return response;
             }).catch((error) => {
                 clearTimeout(id);
